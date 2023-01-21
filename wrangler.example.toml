@@ -1,0 +1,6 @@
+name = "NAMESPACE GOES HERE"
+compatibility_date = "2023-01-01"
+
+kv_namespaces = [
+    { binding = "course", preview_id = "PREVIEW ID GOES HERE", id = "ID GOES HERE" }
+]

@@ -1,2 +1,6 @@
-name = ""
+name = "cursosusach"
 compatibility_date = "2023-01-01"
+
+kv_namespaces = [
+    { binding = "course", preview_id = "c94ea0a9339c421aa6e64d01f21d3fb4", id = "1c0bb77c31f94921a31dbf7c3bd69eb1" }
+]

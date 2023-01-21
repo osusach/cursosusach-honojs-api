@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
+    // "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
     "jsx": "react-jsx",
-    "jsxFragmentFactory": "Fragment",
-    "jsxImportSource": "hono/jsx"
+    // "jsxFragmentFactory": "Fragment",
+    "jsxImportSource": "hono/jsx",
+    "types": [
+      "@cloudflare/workers-types"
+    ] /* Specify type package names to be included without being referenced in a source file. */
   }
 }
