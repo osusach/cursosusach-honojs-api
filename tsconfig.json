@@ -2,6 +2,7 @@
   "compilerOptions": {
     // "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
     "jsx": "react-jsx",
+    "strictNullChecks": true,
     // "jsxFragmentFactory": "Fragment",
     "jsxImportSource": "hono/jsx",
     "types": [

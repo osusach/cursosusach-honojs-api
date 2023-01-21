@@ -2,11 +2,11 @@
 
 Work in progress...
 
-## TODO
-- [ ] Schema parser to validate bodies (Zod)
-- [ ] Connect to KV (nosql db at the edge)
-- [ ] CRUD for courses
-- [ ] CRUD for opinions
+## Technologies
+
+- TypeScript with Hono.js
+- Cloudflare Workers, KV (nosql)
+- Zod
 
 ## Getting Started
 
@@ -22,6 +22,22 @@ Deployment
 ```
 npm run deploy
 ```
+
+## TODO
+- [X] Connect to KV (nosql db at the edge)
+- [ ] Schema parser to validate bodies (Zod)
+  - [X] Course
+  - [ ] Opinion
+- [ ] CRUD for courses
+  - [X] Create
+  - [X] Read
+  - [ ] Update
+  - [ ] Delete
+- [ ] CRUD for opinions
+  - [ ] Create
+  - [ ] Read
+  - [ ] Update
+  - [ ] Delete
 
 ## Types
 
@@ -62,7 +78,7 @@ npm run deploy
 
 ### Difficulty
 
-| score      | title |
+| score | title |
 | ----------- | ----------- |
 | 1 | Muy facil |
 | 2 | Facil |
@@ -72,10 +88,29 @@ npm run deploy
 
 ### Dedicated Time
 
-| score      | title |
-| :-----------: | :-----------: |
+| score | title |
+| ----------- | ----------- |
 | 1 | 1-2 horas semanales |
 | 2 | 3-4 horas semanales  |
 | 3 | 5-6 horas semanales |
 | 4 | 7-8 horas semanales |
 | 5 | >9 horas semanales |
+
+### Faculties
+
+| abbreviation | full name |
+| ----------- | ----------- |
+| fing | Facultad de Ingeniería |
+| fciencia | Facultad de Ciencias |
+| fahu | Facultad de Humanidades |
+| fae | Facultad de Administración y Economía |
+| fatec | Facultad de Química y Biología |
+| fcm | Facultad de Ciencias Médicas |
+| fqyb | Facultad de Tecnológica |
+| fderecho | Facultad de Derecho |
+
+## Why use such obscure technologies?
+
+Cuz cloudflare workers free tier is pretty good and the Hono.js way of creating an api is pretty nice, plus, the edge.
+
+<p align="center"><img width="300" src="https://pbs.twimg.com/media/FnAgPUzX0AAAA_N?format=jpg&name=large" alt="USACH Open Source Logo"></p>
