@@ -22,7 +22,7 @@ const course = new Hono<{ Bindings: Env }>();
 // GET /course/
 course.get("/", async (c) => {
   const res = await c.env.course.list();
-  return c.json({ mesasage: res });
+  return c.json({ message: res });
 });
 
 // GET /course/:id
