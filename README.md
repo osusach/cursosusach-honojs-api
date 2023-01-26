@@ -80,11 +80,11 @@ npm run deploy
 
 | score | title |
 | ----------- | ----------- |
-| 1 | Muy facil |
-| 2 | Facil |
+| 1 | Muy fácil |
+| 2 | Fácil |
 | 3 | Medio |
-| 4 | Dificil |
-| 5 | Muy dificil |
+| 4 | Difícil |
+| 5 | Muy difícil |
 
 ### Dedicated Time
 
@@ -104,9 +104,9 @@ npm run deploy
 | fciencia | Facultad de Ciencias |
 | fahu | Facultad de Humanidades |
 | fae | Facultad de Administración y Economía |
-| fatec | Facultad de Química y Biología |
+| fatec | Facultad Tecnológica |
 | fcm | Facultad de Ciencias Médicas |
-| fqyb | Facultad de Tecnológica |
+| fqyb | Facultad de Química y Biología |
 | fderecho | Facultad de Derecho |
 
 ## Why use such obscure technologies?
