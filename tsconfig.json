@@ -5,8 +5,7 @@
     "strictNullChecks": true,
     // "jsxFragmentFactory": "Fragment",
     "jsxImportSource": "hono/jsx",
-    "types": [
-      "@cloudflare/workers-types"
-    ] /* Specify type package names to be included without being referenced in a source file. */
+    "types": ["@cloudflare/workers-types"],
+    "lib": ["es2015"]
   }
 }
