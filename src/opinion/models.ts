@@ -6,11 +6,11 @@ type OpinionId = string;
 const dedicatedHoursPerWeek = ["1-2", "3-4", "5-6", "7-8", ">9"] as const;
 
 const difficultyLevels = [
-  "Muy facil",
-  "Facil",
+  "Muy fácil",
+  "Fácil",
   "Medio",
-  "Dificil",
-  "Muy dificil",
+  "Difícil",
+  "Muy difícil",
 ] as const;
 
 // for schema validation

@@ -23,78 +23,7 @@ Deployment
 npm run deploy
 ```
 
-## TODO
-- [X] Connect to KV (nosql db at the edge)
-- [ ] Schema parser to validate bodies (Zod)
-  - [X] Course
-  - [ ] Opinion
-- [ ] CRUD for courses
-  - [X] Create
-  - [X] Read
-  - [ ] Update
-  - [ ] Delete
-- [ ] CRUD for opinions
-  - [ ] Create
-  - [ ] Read
-  - [ ] Update
-  - [ ] Delete
-
-## Types
-
-### Opinion
-
-```typescript
-{
-  id: string;
-  course_id: string;
-  difficulty: number;
-  summary: string;
-  advice?: string;
-  comment?: string;
-  dedicated_time: number;
-  created_at: Date;
-}
-```
-
-### Course
-
-```typescript
-{
-  id: string;
-  code: string | null;
-  title: string;
-  dedicated_time: {
-    score: number | null;
-    title: string | null;
-  }
-  difficulty: {
-    score: number | null;
-    title: string | null;
-  }
-}
-```
-
 ## Convertion tables
-
-### Difficulty
-
-| score | title |
-| ----------- | ----------- |
-| 1 | Muy fácil |
-| 2 | Fácil |
-| 3 | Medio |
-| 4 | Difícil |
-| 5 | Muy difícil |
-
-### Dedicated Time
-
-| score | title |
-| ----------- | ----------- |
-| 1 | 1-2 horas semanales |
-| 2 | 3-4 horas semanales  |
-| 3 | 5-6 horas semanales |
-| 4 | 7-8 horas semanales |
-| 5 | >9 horas semanales |
 
 ### Faculties
 
