@@ -1,11 +1,17 @@
 {
   "compilerOptions": {
-    // "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+    "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
     "jsx": "react-jsx",
     "strictNullChecks": true,
     // "jsxFragmentFactory": "Fragment",
     "jsxImportSource": "hono/jsx",
     "types": ["@cloudflare/workers-types"],
-    "lib": ["es2015"]
-  }
+    "lib": ["es2015"],
+    "paths": {
+      "@shared/*": ["src/shared/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

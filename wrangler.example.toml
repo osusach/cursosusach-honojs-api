@@ -2,6 +2,12 @@ name = "NAMESPACE GOES HERE"
 compatibility_date = "2023-01-01"
 
 kv_namespaces = [
-    { binding = "course", preview_id = "PREVIEW ID GOES HERE", id = "ID GOES HERE" },
-    { binding = "opinion", preview_id = "PREVIEW ID GOES HERE", id = "ID GOES HERE" }
+    { binding = "course", preview_id = "<PREVIEW ID GOES HERE>", id = "<ID GOES HERE>" },
+    { binding = "opinion", preview_id = "<PREVIEW ID GOES HERE>", id = "<ID GOES HERE>" }
 ]
+
+[[ d1_databases ]]
+binding = "database"
+database_name = "<DATABASE NAME GOES HERE>"
+database_id = "<DATABASE ID GOES HERE>"
+preview_database_id = "<PREVIEW DATABASE ID GOES HERE>"
